@@ -25,10 +25,10 @@ public class Ejemplo04 {
             int resultado = valor1 / valor2;
 
             System.out.printf("Resultado %d", resultado);
-        } catch (InputMismatchException inputMismatchException) {
+        } catch (InputMismatchException b) {
 
             System.out.printf("Existe un error de tipo %s\n",
-                    inputMismatchException);
+                    b);
         }
         
         System.out.println("Continuamos");
